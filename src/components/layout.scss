@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&subset=cyrillic');
+
+@import '~bulma/sass/utilities/initial-variables.sass';
+
+$size-1: 1.75rem;
+$size-2: 2.5rem;
+$size-3: 1.35rem;
+$size-4: 1.15rem;
+
+$family-sans-serif: 'Montserrat', sans-serif;
+$primary: #461c1c;
+$title-color: #461c1c;
+$body-color: $primary;
+$body-weight: $weight-medium;
+$body-size: 14px;
+
+// @import '~bulma/sass/base/_all.sass';
+// @import '~bulma/sass/grid/columns.sass';
+// @import '~bulma/sass/elements/button.sass';
+// @import '~bulma/sass/elements/title.sass';
+@import '~bulma/bulma';
+
+html {
+    background-color: #eee;
+}
+
+@media (max-width: 1024px) {
+    html {
+        overflow-x: auto;
+    }
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1366px;
+    // min-width: 1024px;
+}
+
+li,
+p {
+    margin-bottom: 20px;
+}
